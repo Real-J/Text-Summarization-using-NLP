@@ -12,8 +12,8 @@ This repository contains a **Python-based text summarizer** that supports both *
 ## 🛠 Installation
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/Real-J/text-summarizer-using-NLP.git
-cd text-summarizer-using-NLP
+git clone https://github.com/Real-J/Text-Summarizer-Using-NLP.git
+cd Text-Summarizer-Using-NLP
 ```
 
 ### 2️⃣ Install Required Dependencies
@@ -86,7 +86,26 @@ Unlike extractive summarization, **abstractive summarization** generates new sen
    texts = [text1, text2, text3]
    summaries = summarizer(texts, max_length=100, min_length=30, truncation=True)
    ```
+---
+## Result
 
+INPUT: 
+
+Autonomous vehicles are transforming transportation by reducing human
+intervention in driving. These vehicles use sensors, cameras, LiDAR,
+and AI algorithms to navigate. The goal is to enhance road safety and
+reduce traffic congestion. However, challenges such as
+unpredictable human behavior, adverse weather conditions, and ethical
+considerations in decision-making remain. Despite these hurdles,
+continuous advancements in AI and machine learning are making self-driving 
+technology more reliable and accessible.
+
+OUTPUT:
+
+Autonomous vehicles are transforming transportation by reducing human intervention in driving. 
+These vehicles use sensors, cameras, LiDAR, and AI algorithms to navigate. The goal is to enhance 
+road safety and reduce traffic congestion. But challenges such as unpredictable human behavior,
+adverse weather conditions, and ethical considerations remain.
 ---
 ## 📜 License
 This project is open-source and available under the **Apache 2.0 License**.
