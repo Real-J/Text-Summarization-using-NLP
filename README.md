@@ -12,8 +12,8 @@ This repository contains a **Python-based text summarizer** that supports both *
 ## 🛠 Installation
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/RealJ/text-summarizer.git
-cd text-summarizer
+git clone https://github.com/Real-J/text-summarizer-using-NLP.git
+cd text-summarizer-using-NLP
 ```
 
 ### 2️⃣ Install Required Dependencies
@@ -89,5 +89,5 @@ Unlike extractive summarization, **abstractive summarization** generates new sen
 
 ---
 ## 📜 License
-This project is open-source and available under the **MIT License**.
+This project is open-source and available under the **Apache 2.0 License**.
 
