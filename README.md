@@ -1,4 +1,4 @@
-# 🚀 Text Summarization (Extractive & Abstractive) using NLP
+# 🚀 Text Summarizer (Extractive & Abstractive) using NLP
 
 This repository contains a **Python-based text summarizer** that supports both **extractive** (NLTK-based) and **abstractive** (Transformer-based) summarization. The abstractive summarization runs efficiently on **GPU** using Hugging Face models.
 
